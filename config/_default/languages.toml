@@ -5,16 +5,42 @@
 # Configure the English version of the site.
 [en]
   languageCode = "en-us"
-  # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir = "content/en"
 
-# Uncomment the lines below to configure your website in a second language.
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[fr]
+  languageCode = "fr-fr"
+  contentDir = "content/fr"
+  title = "Eric Marcon"
+  description = "Page personnelle d'Eric Marcon"
+  [fr.params]
+    description = ""
+    date_format = "02-Jan-2006"
+    time_format = "15:04"
+  [[fr.menu.main]]
+    name = "Accueil"
+    url = "#about"
+    weight = 20
+  [[fr.menu.main]]
+    name = "Publications"
+    url = "#featured"
+    weight = 40
+  [[fr.menu.main]]
+    name = "Communications"
+    url = "#talks"
+    weight = 60
+  [[fr.menu.main]]
+    name = "Logiciels"
+    url = "#software"
+    weight = 70
+  [[fr.menu.main]]
+    name = "Cours"
+    url = "#course"
+    weight = 80
+  [[fr.menu.main]]
+    name = "Articles"
+    url = "#posts"
+    weight = 90
+  [[fr.menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 130

@@ -1,6 +1,22 @@
 # IDEs
 .idea/
 
+# R
+.Rbuildignore
+.RData
+.Rhistory
+.Rprofile
+.Rproj.user
+
 # Hugo
 /resources/
-public/
+/public/
+
+# blogdown
+/blogdown/
+/static/en/
+/static/fr/
+/themes/academic/exampleSite/
+*.rmarkdown
+_index.html
+index.html
