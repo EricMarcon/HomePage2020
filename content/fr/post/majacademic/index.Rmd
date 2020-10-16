@@ -20,6 +20,12 @@ image:
 
 Ce site est généré par `blogdown` sous R, avec le thème Academic pour Hugo.
 
+**La documentation suivante est valide pour les versions d'Academic antérieures à septembre 2020.**
+
+Le version en cours ne nécessite plus de mise à jour du thème par Git mais installe une version à jour à chaque compilation avec *Go*.
+Se référer à la [documentation à jour](https://ericmarcon.github.io/travailleR/chap-rediger.html#sec:blogdown).
+
+
 # Installation
 
 L'installation est faite dans RStudio en suivant la [documentation](https://sourcethemes.com/academic/docs/install/#install-with-rstudio) d'Academic.
