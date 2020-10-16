@@ -1,6 +1,7 @@
 language: r
 dist: xenial
 latex: false
+pandoc_version: 2.7.3
 
 branches:
   only:
