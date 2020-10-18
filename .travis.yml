@@ -14,7 +14,7 @@ cache:
 
 script:
   - Rscript -e 'blogdown::install_hugo(force=TRUE)'
-  - Rscript -e 'blogdown::build_site(build_rmd = TRUE)'
+  - Rscript -e 'blogdown::build_site(local = TRUE, build_rmd = TRUE)'
   - touch public/.nojekyll
 
 deploy:
