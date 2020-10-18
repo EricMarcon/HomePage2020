@@ -16,7 +16,9 @@
 /blogdown/
 /static/en/
 /static/fr/
-/themes/academic/exampleSite/
+/static/rmarkdown-libs/
 *.rmarkdown
 _index.html
 index.html
+**/index_files/
+
