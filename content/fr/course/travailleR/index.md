@@ -27,7 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 
-url_pdf: "https://github.com/EricMarcon/travailleR/"
+url_pdf: "https://ericmarcon.github.io/travailleR/"
 url_slides: "https://ericmarcon.github.io/Cours-travailleR/"
 ---
 
