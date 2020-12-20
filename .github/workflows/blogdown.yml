@@ -41,18 +41,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          repository: 'EricMarcon/ericmarcon.github.io'
       - name: Download artifact
         uses: actions/download-artifact@v1
         with:
           # Artifact name
           name: _website
           # Destination path
-          path: public
+          path: /
       - name: Deploy to GitHub Pages
         uses: Cecilapp/GitHub-Pages-deploy@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         with:
+          branch: 'master'
           email: ${{ secrets.EMAIL }}
-          build_dir: public
           jekyll: no
