@@ -54,6 +54,7 @@ jobs:
         uses: Cecilapp/GitHub-Pages-deploy@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_REPOSITORY: 'EricMarcon/ericmarcon.github.io'
         with:
           branch: 'master'
           build_dir: public
